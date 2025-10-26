@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
 import path from 'path'
@@ -20,7 +21,7 @@ const menuOptions = [
 
 function Header() {
   return (
-    <div>
+    <div className='flex justify-between items-center p-4'>
       {/*logo*/}
       <div className='flex gap-2 items-center'>
           <Image src="/logo.svg" alt="Logo" width={30} height={30} />
@@ -35,6 +36,9 @@ function Header() {
           </Link>
         ))}
       </div>
+
+      {/*get started button*/}
+      <Button>Get Started</Button>
 
     </div>
   )
