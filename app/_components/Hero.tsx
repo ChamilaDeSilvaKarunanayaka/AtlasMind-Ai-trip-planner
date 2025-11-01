@@ -1,8 +1,9 @@
+import { Textarea } from '@/components/ui/textarea'
 import React from 'react'
 
 function Hero() {
   return (
-    <div className='mt-24 flex justify-center'>
+    <div className='mt-24 flex flex-col items-center'>
 
       {/* Content */}
       <div className='max-w-4xl w-full text-center space-y-6'>
@@ -12,6 +13,11 @@ function Hero() {
       </div>
 
       {/* Input Box */}
+      <div className="flex justify-center">
+        <Textarea placeholder='Create a trip for Paris from New' 
+        className='w-full max-w-md h-28 bg-transparent border rounded-md shadow-sm focus:ring-2 focus:ring-primary'
+        />
+      </div>
 
       {/* Suggestiopn list */}
 
