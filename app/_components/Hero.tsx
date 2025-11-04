@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { HeroVideoDialog } from "@/components/ui/hero-video-dialog";
 import { Textarea } from "@/components/ui/textarea";
 import { Globe, Globe2, Landmark, Plane, Send } from "lucide-react";
 import React from "react";
@@ -66,6 +67,15 @@ function Hero() {
       </div>
 
       {/* Video section */}
+      <div className="mt-6">
+        <HeroVideoDialog
+          className="block dark:hidden"
+          animationStyle="from-center"
+          videoSrc="https://www.example.com/dummy-video"
+          thumbnailSrc="https://mma.prnewswire.com/media/2401528/1_MindtripProduct.jpg?p=facebook](https://mma.prnewswire.com/media/2401528/1_MindtripProduct.jpg?p=facebook)"
+          thumbnailAlt="Dummy Video Thumbnail"
+        />
+      </div>
     </div>
   );
 }
