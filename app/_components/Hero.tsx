@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { HeroVideoDialog } from "@/components/ui/hero-video-dialog";
 import { Textarea } from "@/components/ui/textarea";
-import { Globe, Globe2, Landmark, Plane, Send } from "lucide-react";
+import { ArrowDown, Globe, Globe2, Landmark, Plane, Send } from "lucide-react";
 import React from "react";
 
 const suggestions = [
@@ -66,8 +66,10 @@ function Hero() {
         ))}
       </div>
 
+      <h2 className="my-7 mt-10 flex gap-2 text-center">Not Sure where to start? <strong>See how it works</strong><ArrowDown /></h2>
+
       {/* Video section */}
-      <div className="mt-6">
+      <div className="mt-1">
         <HeroVideoDialog
           className="block dark:hidden"
           animationStyle="from-center"
