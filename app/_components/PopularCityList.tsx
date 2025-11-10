@@ -53,41 +53,56 @@ const DummyContent = () => {
 
 const data = [
   {
+    category: "Paris, France",
+    title: "The City of Love – Eiffel Tower, Gardens & Sunset Views",
+    src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
     category: "Bali, Indonesia",
-    title: "Tropical Paradise – Beaches, Temples & Sunset Views",
-    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop",
-    content: <DummyContent />,
-  },
-  {
-    category: "London, United Kingdom",
-    title: "Royal Adventures – Big Ben, London Eye & Buckingham Palace",
-    src: "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?q=80&w=2000&auto=format&fit=crop",
-    content: <DummyContent />,
-  },
-  {
-    category: "Kyoto, Japan",
-    title: "Cultural Escape – Shrines, Gardens & Traditional Streets",
+    title: "Island Paradise – Waterfalls, Temples & Golden Beaches",
     src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
     category: "Santorini, Greece",
-    title: "Blue Domes & Sunsets – Discover the Beauty of the Aegean",
-    src: "https://images.unsplash.com/photo-1505731132164-cca9a43d7608?q=80&w=2000&auto=format&fit=crop",
+    title: "Sunset Magic – White Domes & Blue Aegean Horizons",
+    src: "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
-    category: "Cappadocia, Turkey",
-    title: "Hot Air Balloons & Fairy Chimneys – A Dreamlike Adventure",
-    src: "https://images.unsplash.com/photo-1549887534-3db1bd59dcca?q=80&w=2000&auto=format&fit=crop",
+    category: "Kyoto, Japan",
+    title: "Cultural Serenity – Cherry Blossoms & Ancient Temples",
+    src: "https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Swiss Alps, Switzerland",
+    title: "Snow Peaks & Lakes – Nature’s Winter Wonderland",
+    src: "https://images.unsplash.com/photo-1508264165352-258859e62245?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
     category: "Maldives",
-    title: "Overwater Villas – Crystal Waters & Endless Relaxation",
-    src: "https://images.unsplash.com/photo-1501117716987-c8e2a9ce6cf8?q=80&w=2000&auto=format&fit=crop",
+    title: "Turquoise Dreams – Overwater Villas & Crystal Lagoons",
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Dubai, UAE",
+    title: "Golden Sands – Desert Dunes & Skyscraper Skylines",
+    src: "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Banff, Canada",
+    title: "Mountain Majesty – Emerald Lakes & Forest Trails",
+    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
 ];
+
+
+
 
 
