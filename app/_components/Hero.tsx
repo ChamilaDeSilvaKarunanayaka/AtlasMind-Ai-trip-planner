@@ -33,8 +33,8 @@ function Hero() {
           <span className="text-primary">AI trip planner</span>
         </h1>
         <p className="text-lg">
-          Tell me what you want, and I'll handle the rest: Flights, Hotels, trip
-          Planner - all in seconds
+          Share your travel dream, and I’ll plan it all — flights, stays, 
+          and adventures in seconds.
         </p>
       </div>
 
@@ -66,7 +66,7 @@ function Hero() {
         ))}
       </div>
 
-      <h2 className="my-7 mt-10 flex gap-2 text-center">Not Sure where to start? <strong>See how it works</strong><ArrowDown /></h2>
+      <h2 className="my-7 mt-10 flex gap-2 text-center">Not sure how to begin? <strong>Watch how it works.</strong><ArrowDown /></h2>
 
       {/* Video section */}
       <div className="mt-1">
