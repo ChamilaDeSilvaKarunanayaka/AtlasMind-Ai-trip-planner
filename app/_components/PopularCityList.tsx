@@ -10,8 +10,8 @@ export function PopularCityList() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Get to know your iSad.
+      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+        Popular Cities to Visit
       </h2>
       <Carousel items={cards} />
     </div>
@@ -50,42 +50,59 @@ const DummyContent = () => {
   );
 };
 
+
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
-    src: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=3556&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Paris, France",
+    title: "The City of Love – Eiffel Tower, Gardens & Sunset Views",
+    src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
-    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Bali, Indonesia",
+    title: "Island Paradise – Waterfalls, Temples & Golden Beaches",
+    src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
-    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    content: <DummyContent />,
-  },
-
-  {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
-    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Santorini, Greece",
+    title: "Sunset Magic – White Domes & Blue Aegean Horizons",
+    src: "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
-    category: "iOS",
-    title: "Photography just got better.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Kyoto, Japan",
+    title: "Cultural Serenity – Cherry Blossoms & Ancient Temples",
+    src: "https://images.unsplash.com/photo-1554797589-7241bb691973?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
   {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
-    src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Swiss Alps, Switzerland",
+    title: "Snow Peaks & Lakes – Nature’s Winter Wonderland",
+    src: "https://images.unsplash.com/photo-1508264165352-258859e62245?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Maldives",
+    title: "Turquoise Dreams – Overwater Villas & Crystal Lagoons",
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Dubai, UAE",
+    title: "Golden Sands – Desert Dunes & Skyscraper Skylines",
+    src: "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Banff, Canada",
+    title: "Mountain Majesty – Emerald Lakes & Forest Trails",
+    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2000&auto=format&fit=crop",
     content: <DummyContent />,
   },
 ];
+
+
+
+
+
