@@ -52,41 +52,42 @@ const DummyContent = () => {
 
 
 const data = [
-    {
-        category: "Paris, France",
-        title: "Explore the City of Lights – Eiffel Tower, Louvre & more",
-        src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2600&auto=format&fit=crop",
-        content: <DummyContent />,
-    },
-    {
-        category: "New York, USA",
-        title: "Experience NYC – Times Square, Central Park, Broadway",
-        src: "https://plus.unsplash.com/premium_photo-1661954654458-c673671d4a08?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        content: <DummyContent />,
-    },
-    {
-        category: "Tokyo, Japan",
-        title: "Discover Tokyo – Shibuya, Cherry Blossoms, Temples",
-        src: "https://images.unsplash.com/photo-1522547902298-51566e4fb383?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        content: <DummyContent />,
-    },
-    {
-        category: "Rome, Italy",
-        title: "Walk through History – Colosseum, Vatican, Roman Forum",
-        src: "https://plus.unsplash.com/premium_photo-1675975678457-d70708bf77c8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        content: <DummyContent />,
-    },
-    {
-        category: "Dubai, UAE",
-        title: "Luxury and Innovation – Burj Khalifa, Desert Safari",
-        src: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        content: <DummyContent />,
-    },
-    {
-        category: "India",
-        title: "Harbour Views – Opera House, Bondi Beach & Wildlife",
-        src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        content: <DummyContent />,
-    },
+  {
+    category: "Bali, Indonesia",
+    title: "Tropical Paradise – Beaches, Temples & Sunset Views",
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "London, United Kingdom",
+    title: "Royal Adventures – Big Ben, London Eye & Buckingham Palace",
+    src: "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Kyoto, Japan",
+    title: "Cultural Escape – Shrines, Gardens & Traditional Streets",
+    src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Santorini, Greece",
+    title: "Blue Domes & Sunsets – Discover the Beauty of the Aegean",
+    src: "https://images.unsplash.com/photo-1505731132164-cca9a43d7608?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Cappadocia, Turkey",
+    title: "Hot Air Balloons & Fairy Chimneys – A Dreamlike Adventure",
+    src: "https://images.unsplash.com/photo-1549887534-3db1bd59dcca?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
+  {
+    category: "Maldives",
+    title: "Overwater Villas – Crystal Waters & Endless Relaxation",
+    src: "https://images.unsplash.com/photo-1501117716987-c8e2a9ce6cf8?q=80&w=2000&auto=format&fit=crop",
+    content: <DummyContent />,
+  },
 ];
+
 
