@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { SignInButton } from '@clerk/nextjs'
 import Image from 'next/image'
 import Link from 'next/link'
 import path from 'path'
@@ -38,7 +39,9 @@ function Header() {
       </div>
 
       {/*get started button*/}
+      <SignInButton mode='modal'>
       <Button>Get Started</Button>
+      </SignInButton>
 
     </div>
   )
