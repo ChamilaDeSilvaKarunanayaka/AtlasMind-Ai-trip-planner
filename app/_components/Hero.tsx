@@ -1,8 +1,12 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { HeroVideoDialog } from "@/components/ui/hero-video-dialog";
 import { Textarea } from "@/components/ui/textarea";
+import { useUser } from "@clerk/nextjs";
 import { ArrowDown, Globe, Globe2, Landmark, Plane, Send } from "lucide-react";
-import React from "react";
+import { useRouter } from "next/navigation";
+import React, { use } from "react";
+
 
 const suggestions = [
   {
@@ -24,6 +28,17 @@ const suggestions = [
 ];
 
 function Hero() {
+
+const {user}=useUser();
+const router=useRouter();
+const onSend=()=>{
+  if(!user){
+    router.push("/sign-in");
+    return;
+  }
+  //Nvigate to create trip planner web page
+}
+
   return (
     <div className="mt-24 flex flex-col items-center px-4">
       {/* Content */}
@@ -45,7 +60,7 @@ function Hero() {
             placeholder="Create a trip for Paris from New"
             className="w-full max-w-2xl h-24 border border-gray-300 rounded-lg shadow-md focus:ring-2 focus:ring-blue-700 focus:border-blue-700 text-gray-700 text-base p-4 resize-none"
           />
-          <Button size={"icon"} className="absolute bottom-6 right-6">
+          <Button size={"icon"} className="absolute bottom-6 right-6" onClick={()=>onSend()}>
             <Send className="h-4 w-4 text-white" />
           </Button>
         </div>
