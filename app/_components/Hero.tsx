@@ -73,7 +73,7 @@ const onSend=()=>{
           <div
             key={index}
             className="flex items-center gap-2 border rounded-full p-2 
-            cursor-pointer hover:bg-primary hover:text-white transition"
+            cursor-pointer hover:bg-primary hover:text-white transition-all duration-300 hover:scale-110 active:scale-95"
           >
             {suggestion.icon}
             <h2 className="text-xs">{suggestion.title}</h2>
