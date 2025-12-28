@@ -1,5 +1,6 @@
+"use client"
 import { Button } from '@/components/ui/button'
-import { SignInButton } from '@clerk/nextjs'
+import { SignInButton, useUser } from '@clerk/nextjs'
 import Image from 'next/image'
 import Link from 'next/link'
 import path from 'path'
@@ -21,6 +22,9 @@ const menuOptions = [
 ]
 
 function Header() {
+
+  const {user}=useUser(); // Custom Hook to get User Info
+
   return (
     <div className='sticky top-0 z-50 bg-white flex justify-between items-center p-4 border-b shadow-lg'>
       {/*logo*/}
@@ -39,9 +43,13 @@ function Header() {
       </div>
 
       {/*get started button*/}
-      <SignInButton mode='modal'>
+      {!user? <SignInButton mode='modal'>
       <Button>Get Started</Button>
-      </SignInButton>
+      </SignInButton>:
+      <Link href={'/create-trip'}>
+      <Button>Create New trip</Button> 
+      </Link>}
+
 
     </div>
   )
